@@ -8,7 +8,7 @@ export const Signin = () => {
     <>
       <Navbar/>
       <div>
-        <div className='max-w-[400px] mx-auto min-h-[600px] px-4 py-20 bg-secondary'>
+        <div className='max-w-[400px] mx-auto min-h-[585px] px-4 py-20 bg-secondary'>
           <h1 className='text-2xl font-bold'>Login</h1>
           <form>
             <div className='my-4'>

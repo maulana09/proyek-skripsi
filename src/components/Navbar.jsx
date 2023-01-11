@@ -5,7 +5,7 @@ import { HiCode } from 'react-icons/hi'
 export const Navbar = () => {
   
   return (
-    <div className='rounded-div flex items-center justify-between h-20 font-bold'>
+    <div className='relative rounded-div flex items-center justify-between border-solid border-amber-400 h-20 font-bold'>
       <Link to='/'>
         <h1 className='text-2xl'>
         <HiCode className='inline text-primary text-4xl mr-2'/>Kelas Web</h1>
