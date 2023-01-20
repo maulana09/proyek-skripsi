@@ -12,7 +12,7 @@ const getInitialTheme = () => {
             return 'dark'
         } 
     }
-    return 'light'
+    return 'dark'
 }
 
 export const ThemeContext = createContext()

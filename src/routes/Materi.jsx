@@ -8,16 +8,15 @@ export const Materi = () => {
     <>
       <div className='relative'>
         <div className='fixed top-0 left-0 right-0'>
-          <div className='rounded-div flex items-center h-20 gap-6 font-bold z-10'>
+          <div className='rounded-div shadow-xl bg-primary flex items-center h-20 gap-6 font-bold z-10'>
             <Link to='/'>
               <h1 className='text-2xl'>JavaScript Dasar</h1>
             </Link>
-            <div className='sm:hidden'>
+            <div className=''>
               <button className="text-xs px-4 outline outline-1 w-70 breadcrumbs btn-outline btn-warning rounded-full">
               <ul>
                 <li>Menyisipkan JavaScript</li> 
                 <li>Internal JavaScript</li>
-                
               </ul>
             </button>
             </div>
@@ -28,7 +27,7 @@ export const Materi = () => {
         </div>
       </div>
       <div className=''>
-        <div className='rounded-div outline outline-warning my-24 pt-2 z-0'>
+        <div className='rounded-div bg-[#1F1B24] outline outline-warning my-24 pt-2 z-0'>
           <div className='flex pt-0 '>
             <div className='w-full'>
               <p className='text-2xl font-bold pb-2'>📝 Internal JavaScript</p>

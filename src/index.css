@@ -5,11 +5,11 @@
 
 :root {
   font-family: 'Nunito Sans', sans-serif;
-  @apply bg-primary text-primary
+  @apply text-primary bg-primary
 }
 
 .rounded-div {
-  @apply rounded-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto
+  @apply rounded-2xl px-2 max-w-[1140px] w-full mx-auto
 }
 
 .dark {
